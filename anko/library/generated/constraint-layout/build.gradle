@@ -1,0 +1,7 @@
+apply from: '../../library.gradle'
+
+dependencies {
+    api "androidx.constraintlayout:constraintlayout:1.1.3"
+    api project(':generated:anko-commons')
+    api project(':static:constraint-layout-base')
+}

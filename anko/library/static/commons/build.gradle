@@ -1,0 +1,5 @@
+apply from: '../../library.gradle'
+
+dependencies {
+    api 'androidx.annotation:annotation:1.0.0'
+}

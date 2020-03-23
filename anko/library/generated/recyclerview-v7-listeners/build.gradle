@@ -1,0 +1,6 @@
+apply from: '../../library.gradle'
+
+dependencies {
+    api "androidx.recyclerview:recyclerview:1.0.0"
+    api project(':generated:anko-commons')
+}

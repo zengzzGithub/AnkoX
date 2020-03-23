@@ -1,0 +1,6 @@
+apply from: '../../library.gradle'
+
+dependencies {
+    api "com.google.android.material:material:1.0.0"
+    api project(':generated:anko-commons')
+}

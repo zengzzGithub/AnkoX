@@ -1,0 +1,7 @@
+apply from: '../../library.gradle'
+
+dependencies {
+    api "androidx.appcompat:appcompat:1.0.0"
+    api project(':generated:anko-support-v4-commons')
+    api project(':generated:anko-appcompat-v7-commons')
+}
