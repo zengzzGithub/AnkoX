@@ -1,6 +1,0 @@
-apply from: '../../library.gradle'
-
-dependencies {
-    api project(':generated:anko-commons')
-    api project(':static:platform-base')
-}

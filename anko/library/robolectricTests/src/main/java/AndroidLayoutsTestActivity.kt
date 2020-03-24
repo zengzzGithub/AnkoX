@@ -4,7 +4,7 @@ import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
 import org.jetbrains.anko.*
-import org.jetbrains.anko.sdk15.listeners.onClick
+import org.jetbrains.anko.sdk28.listeners.onClick
 
 open class AndroidLayoutsTestActivity : Activity() {
     public override fun onCreate(savedInstanceState: Bundle?): Unit {

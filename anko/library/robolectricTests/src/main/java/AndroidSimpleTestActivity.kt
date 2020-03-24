@@ -4,7 +4,7 @@ import android.app.Activity
 import android.os.Bundle
 import org.jetbrains.anko.*
 import android.widget.LinearLayout
-import org.jetbrains.anko.sdk15.listeners.onClick
+import org.jetbrains.anko.sdk28.listeners.onClick
 
 open class AndroidSimpleTestActivity : Activity() {
     public override fun onCreate(savedInstanceState: Bundle?): Unit {
