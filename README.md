@@ -2,7 +2,7 @@ If you only need some of the features, you can reference any of Anko's parts:
 
 ```gradle
 dependencies {
-    implementation "implementation 'com.github.zengzzGithub:AnkoX:1.0.0'"
+    implementation "implementation 'com.github.zengzzGithub:AnkoX:1.0.2'"
 }
 ```
 

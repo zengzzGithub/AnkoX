@@ -1,7 +1,6 @@
 include ':generator'
 include ':stubs'
 include ':robolectricTests'
-include ':testUtils'
 
 include ':static:commons-base'
 include ':static:platform-base'
@@ -37,17 +36,9 @@ include ':generated:anko-support-v4'
 include ':generated:anko-support-v4-commons'
 include ':generated:anko-coroutines'
 
-include ':ide:plugin-classpath'
-include ':ide:attrs'
-include ':ide:intentions'
-include ':ide:preview'
-include ':ide:xml-converter'
-include ':ide:idea-runner'
-
 project(':generator').projectDir = new File(rootDir, 'anko/library/generator')
 project(':stubs').projectDir = new File(rootDir, 'anko/library/stubs')
 project(':robolectricTests').projectDir = new File(rootDir, 'anko/library/robolectricTests')
-project(':testUtils').projectDir = new File(rootDir, 'anko/library/testUtils')
 
 project(':static').projectDir = new File(rootDir, 'anko/library/static')
 project(':static:commons-base').projectDir = new File(rootDir, 'anko/library/static/commons')
@@ -102,10 +93,4 @@ project(':generated:anko-support-v4').projectDir = new File(rootDir, 'anko/libra
 project(':generated:anko-support-v4-commons').projectDir = new File(rootDir, 'anko/library/generated/support-v4-commons')
 project(':generated:anko-coroutines').projectDir = new File(rootDir, 'anko/library/generated/coroutines')
 
-project(':ide').projectDir = new File(rootDir, 'anko/idea-plugin')
-project(':ide:plugin-classpath').projectDir = new File(rootDir, 'anko/idea-plugin/plugin-classpath')
-project(':ide:attrs').projectDir = new File(rootDir, 'anko/idea-plugin/attrs')
-project(':ide:intentions').projectDir = new File(rootDir, 'anko/idea-plugin/intentions')
-project(':ide:preview').projectDir = new File(rootDir, 'anko/idea-plugin/preview')
-project(':ide:xml-converter').projectDir = new File(rootDir, 'anko/idea-plugin/xml-converter')
-project(':ide:idea-runner').projectDir = new File(rootDir, 'anko/idea-plugin/idea-runner')
+
